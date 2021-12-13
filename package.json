@@ -1,0 +1,28 @@
+{
+  "name": "shalobubot-server",
+  "version": "1.0.0",
+  "description": "server for a chatbot to trovo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon app.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lggerman/shalobuBotServer.git"
+  },
+  "author": "German <lopez.ggerman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lggerman/shalobuBotServer/issues"
+  },
+  "homepage": "https://github.com/lggerman/shalobuBotServer#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "socket.io": "^4.1.3"
+  }
+}
